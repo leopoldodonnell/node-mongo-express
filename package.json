@@ -13,7 +13,7 @@
     "nodemon": "^1.15.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "makedb": "node makedb.js",
     "dev": "nodemon server.js"
   },

@@ -1,6 +1,9 @@
 language: node_js
   - "9.6.1"
 
+install:
+  - npm install
+
 services:
   - mongodb
 

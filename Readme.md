@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/leopoldodonnell/node-mongo-express.svg?branch=master)](https://travis-ci.org/leopoldodonnell/node-mongo-express)
 
-[![Known Vulnerabilities](https://snyk.io/test/github/{username}/{repo}/badge.svg)](https://snyk.io/test/github/{username}/{repo})
+[![Known Vulnerabilities](https://snyk.io/test/github/leopoldodonnell/node-mongo-express/badge.svg)](https://snyk.io/test/github/leopoldodonnell/node-mongo-express)
 
 This project is a simplistic started for working with Node, Mongo and Express with CI using TravisCI and dependency Security with Snyk.
 

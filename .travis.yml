@@ -1,10 +1,12 @@
 language: node_js
+  - "9.6.1"
+
 services:
   - mongodb
 
 before_script:
   - npm run makedb
-  
+
 cache:
   directories:
     - "node_modules"

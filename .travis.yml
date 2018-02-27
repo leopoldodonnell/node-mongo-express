@@ -1,0 +1,10 @@
+language: node_js
+services:
+  - mongodb
+
+before_script:
+  - npm run makedb
+  
+cache:
+  directories:
+    - "node_modules"

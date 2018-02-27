@@ -1,0 +1,36 @@
+{
+  "name": "node-mongo",
+  "version": "1.0.0",
+  "description": "A simple node express plus mongo application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "makedb": "node makedb.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopoldodonnell/node-mongo-express.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "express",
+    "travis"
+  ],
+  "author": "Leopold O'Donnell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leopoldodonnell/node-mongo-express/issues"
+  },
+  "homepage": "https://github.com/leopoldodonnell/node-mongo-express#readme"
+}

@@ -23,8 +23,8 @@ TODO: Add more discussion
 TODO: Add more discussion
 
 If you haven't installed `Node` on your development machine, you can still develop using `Docker`. In this example
-you'll create a network for your containers to connect no, then run `Mongo` using a docker daemon and an interactive
-`Node` shell container on your current directory to do your development.
+you'll create a network for your containers to connect to, then run `Mongo` using a docker daemon and an interactive
+`node` shell container on your current directory to do your development.
 
 
 1. Create a docker network for node to talk to mongo
